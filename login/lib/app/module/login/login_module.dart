@@ -4,7 +4,7 @@ import 'package:login/app/module/login/_export.dart';
 class LoginModule extends Module {
   @override
   final List<Bind> binds = [
-    Bind.lazySingleton((i) => LoginStore())
+    Bind.lazySingleton<LoginStore>((i) => LoginStore())
   ];
 
   @override

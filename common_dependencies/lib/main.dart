@@ -1,3 +1,5 @@
+library common_dependencies;
+
 export 'package:mobx/mobx.dart';
 export 'package:flutter_modular/flutter_modular.dart';
 export 'package:flutter_mobx/src/observer.dart';

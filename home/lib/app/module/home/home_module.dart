@@ -4,7 +4,7 @@ import 'package:home/app/module/home/_export.dart';
 class HomeModule extends Module {
   @override
   final List<Bind> binds = [
-    Bind.lazySingleton((i) => HomeStore())
+    Bind.lazySingleton<HomeStore>((i) => HomeStore())
   ];
 
   @override

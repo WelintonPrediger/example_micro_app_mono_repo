@@ -1,4 +1,4 @@
-import 'package:common/common.dart';
+import 'package:common/main.dart';
 import 'package:common_dependencies/main.dart';
 import 'package:flutter/material.dart';
 import 'package:login/app/module/login/_export.dart';

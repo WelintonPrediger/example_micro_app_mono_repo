@@ -11,5 +11,4 @@ class AppModule extends Module {
     ModuleRoute('/', module: LoginModule()),
     ModuleRoute('/home', module: HomeModule())
   ];
-
 }
